@@ -1,0 +1,94 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+body {
+ 	font-family: 'Itim', cursive;
+  	margin: 0;
+}
+h2 {
+	margin: 0;
+}
+td:first-child {
+	text-align: right;
+	padding-right: .5rem;
+}
+input[type="number"] {
+	height: 2rem;
+}
+.header {
+	text-align: center;
+	font-size: 4rem;
+}
+.main-left {
+	width: 50%;
+	float: left;
+}
+.main-right {
+	width: 50%;
+	float: right;
+}
+.mealDetailsBox {
+	width: 45%;
+	height: 28rem;
+	outline: 2px solid #000000;
+	float: right;
+}
+.boxTitle {
+	width: 100%;
+	outline: 1px solid #000000;
+	text-align: center;
+	padding: 4px;
+}
+.detailsInput {
+	width: 100%;
+	padding: 1.5rem;
+}
+.meal {
+	width: 7rem;
+}
+.tax {
+	width: 3rem;
+}
+.submitRow {
+	height: 10rem;
+}
+.chargesBox {
+	width: 40%;
+	height: 13rem;
+	outline: 2px solid #000000;
+	float: left;
+	margin: 0 0 2rem 3rem;
+}
+.chargesTotal {
+	width: 50%;
+	text-align: right;
+	margin: 2rem auto;
+}
+.earningsBox {
+	width: 40%;
+	height: 13rem;
+	outline: 2px solid #000000;
+	clear: left;
+	margin-left: 3rem;
+}
+.earningsTotal {
+	width: 80%;
+	text-align: right;
+	margin: 2rem auto;
+}
+.footer {
+	width: 80%;
+}
+.footer button {
+	float: right;
+	margin: 1rem 2rem 0 0;
+}
